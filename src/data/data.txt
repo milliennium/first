@@ -18,7 +18,6 @@
             },
             {
                 "dishType":"柏记水饺",
-                "src":"./src/img/hot-sale.png",
                 "dishes":[
                     ["https://img.meituan.net/100.100.90/xianfu/ca41704ed84e11b0e5ebd18583d396aa46327.jpg","柏三鲜水饺","月售 205","赞137","¥16"],
                     ["https://img.meituan.net/100.100.90/xianfu/7597f43df91f8d1dd40fadd8f559312e49965.jpg","酸菜肉水饺","月售 634","赞190","¥9"],
@@ -28,7 +27,6 @@
             },
             {
                 "dishType":"可口小菜",
-                "src":"./src/img/hot-sale.png",
                 "dishes":[
                     ["https://img.meituan.net/100.100.90/xianfu/442e2371f38c8ae996bc4e4fa7d5b4b334816.jpg","柏记泡菜","月售 69","赞39","¥3"],
                     ["https://img.meituan.net/100.100.90/xianfu/d0cf8181da46434116f06abc703d87d336864.jpg","芹菜花生米","月售 86","赞34","¥5"],
@@ -57,7 +55,6 @@
             },
             {
                 "dishType":"海鲜",
-                "src":"./src/img/hot-sale.png",
                 "dishes":[
                     ["https://img.meituan.net/100.100.90/xianfu/17775a2fdeff760fd23a2449f3e8a7601048576.jpg","酱焖嘎牙鱼（冰鲜）","月售 14","赞4","¥48.9"],
                     ["https://img.meituan.net/100.100.90/xianfu/19361d298c46b6fd56331ad51d6d0c051294336.jpg","怀头鱼烧土豆","月售 2","赞13","¥68.9"],
@@ -67,7 +64,6 @@
             },
             {
                 "dishType":"精美热菜",
-                "src":"./src/img/hot-sale.png",
                 "dishes":[
                     ["https://img.meituan.net/100.100.90/wmproduct/52b4d51720c42c9169be8b5a443d3244280072.jpg","铁板腐竹烧肥肠","月售 10","赞2","¥39.9"],
                     ["https://img.meituan.net/100.100.90/wmproduct/eca45d7f25ffd61ece845c3d4b94ecdb173864.jpg","石板啫生肠","月售 1","赞1","¥39.9"],
@@ -96,7 +92,6 @@
             },
             {
                 "dishType":"美味汉堡",
-                "src":"./src/img/hot-sale.png",
                 "dishes":[
                     ["https://img.meituan.net/100.100.90/xianfu/30b929ccb586089e3ffda165966ca3de136192.jpg","劲脆鸡腿堡","月售 72","赞2","¥17"],
                     ["https://img.meituan.net/100.100.90/xianfu/30b929ccb586089e3ffda165966ca3de136192.jpg","香辣鸡腿堡","月售 177","赞5","¥17"],
@@ -106,7 +101,6 @@
             },
             {
                 "dishType":"缤纷小食",
-                "src":"./src/img/hot-sale.png",
                 "dishes":[
                     ["https://img.meituan.net/100.100.90/xianfu/eb3e78c9a7f2d1b77ba8cdd4e5ee9f6e130048.jpg","吮指原味鸡套餐Bnew","月售 21","赞4","¥43"],
                     ["https://img.meituan.net/100.100.90/xianfu/eb3e78c9a7f2d1b77ba8cdd4e5ee9f6e130048.jpg","二块新奥尔良烤翅","月售 123","赞4","¥11.5"],
@@ -135,7 +129,6 @@
             },
             {
                 "dishType":"柏记水饺",
-                "src":"./src/img/hot-sale.png",
                 "dishes":[
                     ["https://img.meituan.net/100.100.90/xianfu/ca41704ed84e11b0e5ebd18583d396aa46327.jpg","柏三鲜水饺","月售 205","赞137","¥16"],
                     ["https://img.meituan.net/100.100.90/xianfu/7597f43df91f8d1dd40fadd8f559312e49965.jpg","酸菜肉水饺","月售 634","赞190","¥9"],
@@ -145,7 +138,6 @@
             },
             {
                 "dishType":"可口小菜",
-                "src":"./src/img/hot-sale.png",
                 "dishes":[
                     ["https://img.meituan.net/100.100.90/xianfu/442e2371f38c8ae996bc4e4fa7d5b4b334816.jpg","柏记泡菜","月售 69","赞39","¥3"],
                     ["https://img.meituan.net/100.100.90/xianfu/d0cf8181da46434116f06abc703d87d336864.jpg","芹菜花生米","月售 86","赞34","¥5"],
@@ -174,7 +166,6 @@
             },
             {
                 "dishType":"海鲜",
-                "src":"./src/img/hot-sale.png",
                 "dishes":[
                     ["https://img.meituan.net/100.100.90/xianfu/17775a2fdeff760fd23a2449f3e8a7601048576.jpg","酱焖嘎牙鱼（冰鲜）","月售 14","赞4","¥48.9"],
                     ["https://img.meituan.net/100.100.90/xianfu/19361d298c46b6fd56331ad51d6d0c051294336.jpg","怀头鱼烧土豆","月售 2","赞13","¥68.9"],
@@ -184,7 +175,6 @@
             },
             {
                 "dishType":"精美热菜",
-                "src":"./src/img/hot-sale.png",
                 "dishes":[
                     ["https://img.meituan.net/100.100.90/wmproduct/52b4d51720c42c9169be8b5a443d3244280072.jpg","铁板腐竹烧肥肠","月售 10","赞2","¥39.9"],
                     ["https://img.meituan.net/100.100.90/wmproduct/eca45d7f25ffd61ece845c3d4b94ecdb173864.jpg","石板啫生肠","月售 1","赞1","¥39.9"],
@@ -213,7 +203,6 @@
             },
             {
                 "dishType":"美味汉堡",
-                "src":"./src/img/hot-sale.png",
                 "dishes":[
                     ["https://img.meituan.net/100.100.90/xianfu/30b929ccb586089e3ffda165966ca3de136192.jpg","劲脆鸡腿堡","月售 72","赞2","¥17"],
                     ["https://img.meituan.net/100.100.90/xianfu/30b929ccb586089e3ffda165966ca3de136192.jpg","香辣鸡腿堡","月售 177","赞5","¥17"],
@@ -223,7 +212,6 @@
             },
             {
                 "dishType":"缤纷小食",
-                "src":"./src/img/hot-sale.png",
                 "dishes":[
                     ["https://img.meituan.net/100.100.90/xianfu/eb3e78c9a7f2d1b77ba8cdd4e5ee9f6e130048.jpg","吮指原味鸡套餐Bnew","月售 21","赞4","¥43"],
                     ["https://img.meituan.net/100.100.90/xianfu/eb3e78c9a7f2d1b77ba8cdd4e5ee9f6e130048.jpg","二块新奥尔良烤翅","月售 123","赞4","¥11.5"],

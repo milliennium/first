@@ -1,14 +1,23 @@
 var webpack = require('webpack');
 // var ExtractTextPlugin = require("extract-text-webpack-plugin");//css
-var providePlugin = new webpack.ProvidePlugin({ $: 'jquery', jQuery: 'jquery', 'window.jQuery': 'jquery' });
+// var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
+var providePlugin = new webpack.ProvidePlugin({ $j: 'jquery', jQuery: 'jquery', 'window.jQuery': 'jquery'});
 var path = require("path");
 module.exports = {
-    entry: './src/js/entry.js',
+    entry : {
+        "first":'./src/js/first.js',
+        "second":'./src/js/second.js',
+    },
     output: {
         path: path.join(__dirname,"./static/"),
         publicPath: './static/',
-        filename: 'index.js'
+        // publicPath:"https://localhost:8080/out/",
+        // publicPath:'https://localhost:8080/static/',
+        filename: '[name].js'
     },
+    externals:{
+
+    },    
     module: {
         rules: [
             // { test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader") },打包成单独的css
@@ -36,6 +45,8 @@ module.exports = {
     plugins: [
         providePlugin,
         new webpack.NoEmitOnErrorsPlugin(),
+        // new CommonsChunkPlugin({name:["first1", "second2"]})
+        //提取公共模块
         // new ExtractTextPlugin({
         //     filename: 'http://localhost:8080/static/bundle.css'
         // })

@@ -1,0 +1,9 @@
+require("./external/zepto.min.js");
+require("./external/touch.js");
+require('../less/entry.less');
+require("../less/wyMeiTuan.less");
+require("./tlMT/reactDom.js")
+require("./wyMeiTuan/footerModule.js")
+require("./wyMeiTuan/wyMeiTuan.js");
+require("./tlMT/backPage.js");
+require("./tlMT/getUlShow.js");
