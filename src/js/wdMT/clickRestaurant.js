@@ -4,7 +4,7 @@ function clickRestaurant(data){
        var oData = JSON.stringify(data[index]);
        sessionStorage.shopInfo = oData;
        console.log(window.location.href)
-       window.location.href = '../../meituan/second.html';
+       window.location.href = '../../first/second.html';
        //实现不用a标签就能跳转页面
     })
 }

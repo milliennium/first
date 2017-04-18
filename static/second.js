@@ -12976,7 +12976,7 @@ module.exports = __webpack_require__(19);
 
 function backPage() {
    $('.backPage-box').tap(function () {
-      window.location.href = "../../meituan/first.html";
+      window.location.href = "../../first/first.html";
       sessionStorage.shopInfo = "";
    });
 }
