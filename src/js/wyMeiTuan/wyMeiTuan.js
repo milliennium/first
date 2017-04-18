@@ -15,7 +15,7 @@ window.onload = function () {
             var html = '';
             // var count = 1; //记录点击次数
             var singleMoney = 0; //单个商品价格
-            foodBuy.eq(j).on("tap", myFlag(function() {
+            foodBuy.eq(j).on("touchend", function() {
                 oClick++;
                 num++;
                 // - 数量 + 
@@ -56,7 +56,7 @@ window.onload = function () {
                     $(".gap-head").after(html);
                     lock = 0;
                     //元素在onload事件之后添加，需手动添加事件
-                    $(".add" + j + "").on("tap", myFlag(function() {
+                    $(".add" + j + "").on("touchend", function() {
                         num++;
                         oClick++;
                         totalMoney += singleMoney;
@@ -72,8 +72,8 @@ window.onload = function () {
                             $(".footer-gap span").html("还差" + (10 - totalMoney) + "元");
                         }
 
-                    }))
-                    $(".minus" + j + "").on("tap", myFlag(function() {
+                    })
+                    $(".minus" + j + "").on("touchend", function() {
                         num--;
                         oClick--;
                         totalMoney -= singleMoney;
@@ -96,14 +96,14 @@ window.onload = function () {
                             $(".footer-gap span").html("10元起送");
                             $(".footer-money span").removeClass("initial-span").html("购物车空空入也~");
                         }
-                    }))
+                    })
 
                 }
                 $(".single" + j + "").html('￥' + singleMoney * oClick);
                 $(".const" + j + "").html(oClick);
 
                 //alert只有点击确认 ， 点击清空购物车区域，直接清空一切
-                $(".gap-right").on("tap", myFlag(function() {
+                $(".gap-right").on("touchend", function() {
                         // alert("是否清空购物车内所有商品？");
                         num = 0;
                         totalMoney = 0;
@@ -116,11 +116,11 @@ window.onload = function () {
                         $(".footer-gap").css("background-color", "#928686");
                         $(".footer-gap span").html("10元起送");
                         $(".footer-money span").removeClass("initial-span").html("购物车空空入也~");
-                    }))
+                    })
                     // 函数  参数 =》[]  chaunyuansu   shuzu  houjia  flag  判断是否显示
 
-            }));
-            foodReturn.eq(j).on("tap", myFlag(function() {
+            });
+            foodReturn.eq(j).on("touchend", function() {
                 oClick--;
                 num--;
                 totalMoney -= parseInt(buyMoney.eq(j).html().substr(1));
@@ -141,11 +141,11 @@ window.onload = function () {
                     $(".footer-gap span").html("10元起送");
                     $(".footer-money span").removeClass("initial-span").html("购物车空空入也~");
                 }
-            }))
+            })
         }(i))
     }
     //购物车点击购物袋显示与否
-    $(".footer-goods").on("tap",myFlag(function() {
+    $(".footer-goods").on("touchend",function() {
         console.log("00")
         if (flag === true) {
             if (totalMoney > 0) {
@@ -155,12 +155,12 @@ window.onload = function () {
             $(".shop-gap").css("display", "none");
         }
         flag = !flag;
-    }))
+    })
 
     //阴影部分点击事件
-    $(".gap-shadow").on("tap", myFlag(function() {
+    $(".gap-shadow").on("touchend", function() {
         $(".shop-gap").css("display", "none");
-    }))
+    })
 
 
 }
@@ -179,12 +179,12 @@ function show(arr, _flag) {
     }
 }
 
-function myFlag (handle) {
-    var oflag = true;
-    return function () {
-        if (oflag) {
-            handle()
-        }
-        oflag = !oflag;
-    }
-}
+// function myFlag (handle) {
+//     var oflag = true;
+//     return function () {
+//         if (oflag) {
+//             handle()
+//         }
+//         oflag = !oflag;
+//     }
+// }
