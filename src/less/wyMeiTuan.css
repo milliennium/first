@@ -1,0 +1,199 @@
+@media only screen and (min-width: 320px) {
+  .shop-gap {
+    height: 83%;
+  }
+}
+@media only screen and (min-width: 360px) {
+  .shop-gap {
+    height: 84%;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .shop-gap {
+    height: 563px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  .shop-gap {
+    height: 85%;
+  }
+}
+.shop-gap {
+  position: absolute;
+  bottom: 8%;
+  width: 100%;
+  display: none;
+}
+.shop-gap .gap-shadow {
+  width: 100%;
+  height: 100%;
+  background: #aaa;
+  opacity: 0.5;
+}
+.shop-gap .gap-shadow .perch {
+  width: 100%;
+  height: 35%;
+}
+.shop-gap .gap {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.shop-gap .gap .gap-head {
+  height: 45px;
+  background-color: #fff9c4;
+  line-height: 45px;
+  padding: 0 10px;
+  color: #b2c5a0;
+}
+.shop-gap .gap .gap-head .gap-left {
+  float: left;
+  height: 100%;
+}
+.shop-gap .gap .gap-head .gap-left .fa-circle {
+  opacity: 1;
+  font-size: 8px;
+  padding-right: 3px;
+}
+.shop-gap .gap .gap-head .gap-left .gap-num {
+  opacity: 1;
+  font-size: 14px;
+}
+.shop-gap .gap .gap-head .gap-right {
+  float: right;
+  height: 100%;
+}
+.shop-gap .gap .gap-head .gap-right .fa-trash {
+  opacity: 1;
+  font-size: 17px;
+  padding-right: 3px;
+}
+.shop-gap .gap .gap-head .gap-right .gap-clear {
+  opacity: 1;
+  font-size: 13px;
+}
+.shop-gap .gap .gap-content {
+  height: 50px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  line-height: 50px;
+  padding: 0 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.shop-gap .gap .gap-content .food-name {
+  float: left;
+  height: 100%;
+}
+.shop-gap .gap .gap-content .food-num {
+  height: 100%;
+  float: right;
+}
+.shop-gap .gap .gap-content .food-num .buy-money {
+  position: absolute;
+  right: 120px;
+}
+.shop-gap .gap .gap-content .food-num .buy-return {
+  padding-top: 15px;
+  display: inline-block;
+}
+.shop-gap .gap .gap-content .food-num .buy-return .food-buy {
+  float: right;
+  width: 25px;
+  height: 25px;
+  background-image: url('../img/icon.png');
+  background-size: 150px 350px;
+  background-position: -15px 0;
+}
+.shop-gap .gap .gap-content .food-num .buy-return .count-dish {
+  font-size: 15px;
+  height: 22px;
+  line-height: 22px;
+  min-width: 21px;
+  text-align: center;
+  float: right;
+  color: #2f2f2f;
+}
+.shop-gap .gap .gap-content .food-num .buy-return .food-return {
+  display: block;
+  width: 25px;
+  height: 25px;
+  float: right;
+  background-image: url('../img/icon.png');
+  background-size: 150px 350px;
+  background-position: -15px -28px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #bbb;
+  width: 100%;
+  height: 8%;
+}
+footer div {
+  float: left;
+  height: 100%;
+}
+footer .footer-goods {
+  width: 70%;
+  background-color: #fff;
+}
+footer .footer-goods .footer-icon {
+  width: 30%;
+}
+footer .footer-goods .footer-icon .icon-wrap {
+  position: absolute;
+  width: 14%;
+  height: 100%;
+  border-radius: 50%;
+  left: 4%;
+  bottom: 20%;
+  background-color: #aaa;
+}
+footer .footer-goods .footer-icon .icon-wrap .icon-num {
+  position: absolute;
+  left: 75%;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  background-color: #ee930d;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  display: none;
+}
+footer .footer-goods .footer-icon .icon-wrap i {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 18%;
+  padding-top: 20%;
+}
+footer .footer-money {
+  width: 70%;
+  overflow: hidden;
+}
+footer .footer-money p {
+  color: #21d9c7;
+  font-size: 22px;
+  padding-left: 8%;
+  display: none;
+}
+footer .footer-money .empty {
+  display: block;
+  font-size: 12px;
+  color: #aaa;
+  padding-left: 8%;
+  padding-top: 8%;
+}
+footer .footer-money .initial-span {
+  padding-top: 3%;
+}
+footer .footer-gap {
+  width: 30%;
+  background-color: #928686;
+}
+footer .footer-gap span {
+  display: block;
+  color: #fff;
+  padding: 15% 0 0 25%;
+}
